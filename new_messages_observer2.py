@@ -3,7 +3,6 @@ import sys
 import time
 
 from webwhatsapi import WhatsAPIDriver
-contact_dict = {}
 
 driver = 0
 def numtoname(lst):
@@ -19,21 +18,10 @@ def numtoname(lst):
     return f
     
 def run():
-##    print("Environment", os.environ)
-##    try:
-##        os.environ["SELENIUM"]
-##    except KeyError:
-##        print("Please set the environment variable SELENIUM to Selenium URL")
-##        sys.exit(1)
     global driver
-    driver = WhatsAPIDriver()#client="remote")
+    driver = WhatsAPIDriver()
     print("Waiting for QR")
     driver.wait_for_login()
-    #d = driver.get_my_contacts()
-    #global contact_dict
-    #contact_dict = numtoname(d)
-    #chats = driver.get_all_chat_ids()
-    #print(chats)
     print("Bot started")
 
     driver.subscribe_new_messages(NewMessageObserver())
@@ -51,8 +39,13 @@ class NewMessageObserver:
         for message in new_messages:
             if message.type == "chat":
                 global contact_dict
-                global driver 
-                print(driver.get_chat_from_id(message.chat_id),message.content,driver.get_contact_from_id(message.sender.id))
+                global driver
+                if 'Group chat' in str(driver.get_chat_from_id(message.chat_id)):
+                    name = str(driver.get_chat_from_id(message.chat_id))[14:].split(':')[0]
+                else:
+                    name = str(driver.get_chat_from_id(message.chat_id))[13:].split(':')[0]
+                contact = str(driver.get_contact_from_id(message.sender.id))[9:].split('(')[0]
+                print(name,message.content,contact)
             else:
                 print(
                     "New message of type '{}' received from number {}".format(
