@@ -4,28 +4,31 @@ import time
 
 from webwhatsapi import WhatsAPIDriver
 
+def numtoname(lst):
+	namelst = []
+	numberlst = []
+	for i in lst:
+		namelst.append(' '.join(str(i).split()[1:-1]))
+		numberlst.append(str(i).split()[-1].rstrip('>)').lstrip('('))
+	for i in range(len(namelst)):
+		if namelst.count(namelst[i]) > 1:
+			namelst[i] = namelst[i]+' ('+numberlst[i].rstrip('@.qwertyuiopasdfghjklzxcvbnm')+')'
+	f = {numberlst[i]:namelst[i] for i in range(len(namelst))}
 
-def run():
-##    print("Environment", os.environ)
-##    try:
-##        os.environ["SELENIUM"]
-##    except KeyError:
-##        print("Please set the environment variable SELENIUM to Selenium URL")
-##        sys.exit(1)
+	return f
+    
+driver = WhatsAPIDriver()#client="remote")
+print("Waiting for QR")
+driver.wait_for_login()
+print("Bot started")
+d = driver.get_my_contacts()
 
-    driver = WhatsAPIDriver()#client="remote")
-    print("Waiting for QR")
-    driver.wait_for_login()
-    print("Bot started")
+contact_dict = numtoname(d)
 
-    driver.subscribe_new_messages(NewMessageObserver())
-    print("Waiting for new messages...")
-
-    """ Locks the main thread while the subscription in running """
-    while True:
-        time.sleep(60)
-
-
+driver.subscribe_new_messages(NewMessageObserver())
+while True:
+    time.sleep(60)
+    
 class NewMessageObserver:
     def on_message_received(self, new_messages):
         for message in new_messages:
@@ -41,7 +44,3 @@ class NewMessageObserver:
                         message.type, message.sender.id
                     )
                 )
-
-
-if __name__ == "__main__":
-    run()
