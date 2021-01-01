@@ -776,3 +776,299 @@ JavaScript warning: https://web.whatsapp.com/app.6be31a9914b3f8e528be.js, line 1
 
 ###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
 
+1609473334927	geckodriver	INFO	Listening on 127.0.0.1:60777
+1609473337936	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\anish_n48e8\\AppData\\Local\\Temp\\rust_mozprofilewIcBgW"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1609473342050	Marionette	INFO	Listening on port 60785
+1609473342157	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://web.whatsapp.com/app.6be31a9914b3f8e528be.js, line 1: unreachable code after return statement
+JavaScript warning: https://web.whatsapp.com/app.6be31a9914b3f8e528be.js, line 1: unreachable code after return statement
+1609473929277	Marionette	INFO	Stopped listening on port 60785
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+"--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\anish_n48e8\\AppData\\Local\\Temp\\rust_mozprofile9N30lO"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1609473823636	Marionette	INFO	Listening on port 60911
+1609473823942	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://web.whatsapp.com/app.6be31a9914b3f8e528be.js, line 1: unreachable code after return statement
+JavaScript warning: https://web.whatsapp.com/app.6be31a9914b3f8e528be.js, line 1: unreachable code after return statement
+1609473836713	Marionette	INFO	Stopped listening on port 60911
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1609473852494	geckodriver	INFO	Listening on 127.0.0.1:60974
+1609473855468	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\anish_n48e8\\AppData\\Local\\Temp\\rust_mozprofileu5majH"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1609473858286	Marionette	INFO	Listening on port 60982
+1609473858647	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://web.whatsapp.com/app.6be31a9914b3f8e528be.js, line 1: unreachable code after return statement
+JavaScript warning: https://web.whatsapp.com/app.6be31a9914b3f8e528be.js, line 1: unreachable code after return statement
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x690008,name=PMessagePort::Msg___delete__) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[Parent 708, Gecko_IOThread] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:545
+[Parent 708, Gecko_IOThread] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:166
+1609474190912	Marionette	INFO	Stopped listening on port 60982
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1609475349531	geckodriver	INFO	Listening on 127.0.0.1:61545
+1609475352541	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\anish_n48e8\\AppData\\Local\\Temp\\rust_mozprofilekY0Fq6"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1609475355442	Marionette	INFO	Listening on port 61553
+1609475355724	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://web.whatsapp.com/app.6be31a9914b3f8e528be.js, line 1: unreachable code after return statement
+JavaScript warning: https://web.whatsapp.com/app.6be31a9914b3f8e528be.js, line 1: unreachable code after return statement
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1609475429281	Marionette	INFO	Stopped listening on port 61553
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1609475544355	geckodriver	INFO	Listening on 127.0.0.1:61664
+1609475547372	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\anish_n48e8\\AppData\\Local\\Temp\\rust_mozprofilecjxR64"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1609475550136	Marionette	INFO	Listening on port 61674
+1609475550569	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://web.whatsapp.com/app.6be31a9914b3f8e528be.js, line 1: unreachable code after return statement
+JavaScript warning: https://web.whatsapp.com/app.6be31a9914b3f8e528be.js, line 1: unreachable code after return statement
+[Parent 15640, Gecko_IOThread] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:545
+1609476096065	Marionette	INFO	Stopped listening on port 61674
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+"--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\anish_n48e8\\AppData\\Local\\Temp\\rust_mozprofileFtMgre"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1609475897329	Marionette	INFO	Listening on port 61840
+1609475897620	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://web.whatsapp.com/app.6be31a9914b3f8e528be.js, line 1: unreachable code after return statement
+JavaScript warning: https://web.whatsapp.com/app.6be31a9914b3f8e528be.js, line 1: unreachable code after return statement
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1609476096715	Marionette	INFO	Stopped listening on port 61840
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1609476657599	geckodriver	INFO	Listening on 127.0.0.1:50093
+1609476660599	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\anish_n48e8\\AppData\\Local\\Temp\\rust_mozprofilemxbbGj"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1609476663234	Marionette	INFO	Listening on port 50106
+1609476663294	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://web.whatsapp.com/app.6be31a9914b3f8e528be.js, line 1: unreachable code after return statement
+JavaScript warning: https://web.whatsapp.com/app.6be31a9914b3f8e528be.js, line 1: unreachable code after return statement
+1609477581314	Marionette	INFO	Stopped listening on port 50106
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+"--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\anish_n48e8\\AppData\\Local\\Temp\\rust_mozprofilefDEq09"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1609477097150	Marionette	INFO	Listening on port 50278
+1609477097568	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://web.whatsapp.com/app.6be31a9914b3f8e528be.js, line 1: unreachable code after return statement
+JavaScript warning: https://web.whatsapp.com/app.6be31a9914b3f8e528be.js, line 1: unreachable code after return statement
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x690008,name=PMessagePort::Msg___delete__) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1609477132892	Marionette	INFO	Stopped listening on port 50278
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1609477157213	geckodriver	INFO	Listening on 127.0.0.1:49790
+1609477160219	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\anish_n48e8\\AppData\\Local\\Temp\\rust_mozprofilehfTEOS"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1609477163070	Marionette	INFO	Listening on port 49798
+1609477163420	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://web.whatsapp.com/app.6be31a9914b3f8e528be.js, line 1: unreachable code after return statement
+JavaScript warning: https://web.whatsapp.com/app.6be31a9914b3f8e528be.js, line 1: unreachable code after return statement
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x690008,name=PMessagePort::Msg___delete__) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1609477582299	Marionette	INFO	Stopped listening on port 49798
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+"--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\anish_n48e8\\AppData\\Local\\Temp\\rust_mozprofile2iozvO"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1609477277384	Marionette	INFO	Listening on port 49870
+1609477277866	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://web.whatsapp.com/app.6be31a9914b3f8e528be.js, line 1: unreachable code after return statement
+JavaScript warning: https://web.whatsapp.com/app.6be31a9914b3f8e528be.js, line 1: unreachable code after return statement
+1609477583040	Marionette	INFO	Stopped listening on port 49870
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1609481244317	geckodriver	INFO	Listening on 127.0.0.1:64368
+1609481247184	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\anish_n48e8\\AppData\\Local\\Temp\\rust_mozprofiletMbzMP"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1609481250960	Marionette	INFO	Listening on port 64376
+1609481251399	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://web.whatsapp.com/app.6be31a9914b3f8e528be.js, line 1: unreachable code after return statement
+JavaScript warning: https://web.whatsapp.com/app.6be31a9914b3f8e528be.js, line 1: unreachable code after return statement
+1609481281334	Marionette	INFO	Stopped listening on port 64376
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1609481296595	geckodriver	INFO	Listening on 127.0.0.1:64442
+1609481299561	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\anish_n48e8\\AppData\\Local\\Temp\\rust_mozprofilezM8r12"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1609481303804	Marionette	INFO	Listening on port 64450
+1609481303927	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://web.whatsapp.com/app.6be31a9914b3f8e528be.js, line 1: unreachable code after return statement
+JavaScript warning: https://web.whatsapp.com/app.6be31a9914b3f8e528be.js, line 1: unreachable code after return statement
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x690008,name=PMessagePort::Msg___delete__) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1609481352409	Marionette	INFO	Stopped listening on port 64450
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1609481357535	geckodriver	INFO	Listening on 127.0.0.1:64524
+1609481360502	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\anish_n48e8\\AppData\\Local\\Temp\\rust_mozprofilezcpLwZ"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1609481364551	Marionette	INFO	Listening on port 64532
+1609481364746	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://web.whatsapp.com/app.6be31a9914b3f8e528be.js, line 1: unreachable code after return statement
+JavaScript warning: https://web.whatsapp.com/app.6be31a9914b3f8e528be.js, line 1: unreachable code after return statement
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recvconsole.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1609481410003	Marionette	INFO	Listening on port 64600
+1609481410424	Marionette	WARN	TLS certificate errors will be ign1609481910917	Marionette	INFO	Stopped listening on port 64532
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+: https://web.whatsapp.com/app.6be31a9914b3f8e528be.js, line 1: unreachable code after return statement
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1609481442389	Marionette	INFO	Stopped listening on port 64600
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+

@@ -14,17 +14,15 @@ def run():
     driver.wait_for_login()
     print("Bot started")
 
-    driver.subscribe_new_messages(NewMessageObserver())
+    driver.subscribe_new_messages(randomcall)
     print("Waiting for new messages...")
 
-    """ Locks the main thread while the subscription in running """
     while True:
         time.sleep(60)
 
 
-class NewMessageObserver:
-
-    
+#class NewMessageObserver:
+class randomcall():
     def on_message_received(self, new_messages):
             
         for message in new_messages:
