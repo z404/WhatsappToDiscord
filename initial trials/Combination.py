@@ -39,11 +39,11 @@ def run():
                     for channel in guild.text_channels:
                         await channel.send('lol')
             else: print('Nope..',len(new_msg_list),old_msg_len)
-    #mythread = threading.Thread(target=client.run,args=['Nzk0MjA4MjE3MjY5Nzk2ODg1.X-3eCg.KNlVZ-L_6BqTVtyPO3WZkOM73UM'])
+    #mythread = threading.Thread(target=client.run,args=[client_key])
     #mythread.daemon = True
     #mythread.start()
 
-    client.run('Nzk0MjA4MjE3MjY5Nzk2ODg1.X-3eCg.KNlVZ-L_6BqTVtyPO3WZkOM73UM')
+    client.run(client_key)
 class NewMessageObserver:
     
     #client.run('Nzk0MjA4MjE3MjY5Nzk2ODg1.X-3eCg.KNlVZ-L_6BqTVtyPO3WZkOM73UM')
