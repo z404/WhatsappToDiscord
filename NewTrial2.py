@@ -1,19 +1,9 @@
-import asyncio, discord, time, threading, asyncio, pyrebase
+import discord, threading, pyrebase, json
 client = discord.Client()
-
+with open('config.txt') as file:
+    config = json.load(file)
 with open('creds.txt') as file:
     bot_token = file.read().rstrip("\n ")
-    
-config = {
-    'apiKey': "AIzaSyBqjdapVjCIDPdMa4kHXdQ7-Z9ZL5vxYIk",
-    'authDomain': "watodiscord.firebaseapp.com",
-    'databaseURL': "https://watodiscord-default-rtdb.firebaseio.com",
-    'projectId': "watodiscord",
-    'storageBucket': "watodiscord.appspot.com",
-    'messagingSenderId': "819150139392",
-    'appId': "1:819150139392:web:c66bd99b705e88c61568e5",
-    'measurementId': "G-B4DGC2M0V0"
-}
 
 firebase = pyrebase.initialize_app(config)
 
