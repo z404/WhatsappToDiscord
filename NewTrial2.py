@@ -16,7 +16,6 @@ config = {
 }
 
 firebase = pyrebase.initialize_app(config)
-#client.run('Nzk0MjA4MjE3MjY5Nzk2ODg1.X-3eCg.yZeNNyqqFYVtXza6TEH_tPx9DqI')
 
 msg = ''
 flag = False
