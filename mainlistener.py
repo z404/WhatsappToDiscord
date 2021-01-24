@@ -44,6 +44,7 @@ def run():
             if flag:
                 flag = False
                 await chan.send('['+msg['origin']+'] {'+msg['sender'].rstrip('\n ')+'} '+msg['message'])
+                print(msg['originid']['_serialized'])
                 
     """ Locks the main thread while the subscription in running """
     global flag, msg
@@ -61,12 +62,13 @@ class NewMessageObserver:
                 global driver
                 if 'Group chat' in str(driver.get_chat_from_id(message.chat_id)):
                     name = str(driver.get_chat_from_id(message.chat_id))[14:].split(':')[0]
+                    typ = 'group'
                 else:
                     name = str(driver.get_chat_from_id(message.chat_id))[13:].split(':')[0]
+                    typ = 'dm'
                 contact = str(driver.get_contact_from_id(message.sender.id))[9:].split('(')[0]
-                print(name,message.content,contact)
                 global msg, flag
-                msg.update({'message':message.content,'origin':name,'sender':contact})
+                msg.update({'message':message.content,'origin':name,'sender':contact,'originid':message.chat_id,'senderid':message.sender.id,'type':typ})
                 flag = True
             else:
                 print(
