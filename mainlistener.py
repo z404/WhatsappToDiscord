@@ -45,6 +45,8 @@ def run():
                 flag = False
                 await chan.send('['+msg['origin']+'] {'+msg['sender'].rstrip('\n ')+'} '+msg['message'])
                 print(msg['originid']['_serialized'])
+                with open('data.csv','a+') as file:
+                    file.write('\n '+msg['originid']['_serialized']+','+msg['origin'])
                 
     """ Locks the main thread while the subscription in running """
     global flag, msg
