@@ -68,6 +68,7 @@ def run():
                     GNAME.append(msg['origin'])
                     chan = await client.guilds[0].create_text_channel(msg['origin'])
                     CID.append(chan.id)
+                    listlen = 1
                     await chan.send('['+msg['sender'].rstrip('\n ')+'] '+msg['message'])
                     
                 #print(msg['originid']['_serialized'])
@@ -78,8 +79,8 @@ def run():
     global flag, msg
     while True:
         #global listlen
-        if listlen != len(GID):
-            listlen = len(GID)
+        if listlen != 0:
+            listlen = 0
             with open('data.csv','a+') as file:
                 file.write('\n'+GID[-1]+','+GNAME[-1]+','+str(CID[-1]))
         #pass
