@@ -12,7 +12,7 @@ driver = 0
 
 flag = False
 msg = {}
-
+listlen = 0
 def run():
     global driver
     driver = WhatsAPIDriver()
@@ -43,6 +43,8 @@ def run():
                 GID.append(nGID)
                 GNAME.append(nGNAME)
                 CID.append(nCID)
+        global listlen
+        listlen = len(GID)
     except:
         GID,GNAME,CID = [],[],[]
         
@@ -67,8 +69,7 @@ def run():
                     chan = await client.guilds[0].create_text_channel(msg['origin'])
                     CID.append(chan.id)
                     await chan.send('['+msg['sender'].rstrip('\n ')+'] '+msg['message'])
-                    with open('data.csv','a+') as file:
-                        file.write('\n'+msg['originid']['_serialized']+','+msg['origin']+','+str(chan.id))
+                    
                 #print(msg['originid']['_serialized'])
                 #with open('data.csv','a+') as file:
                 #    file.write('\n '+msg['originid']['_serialized']+','+msg['origin'])
@@ -76,11 +77,12 @@ def run():
     """ Locks the main thread while the subscription in running """
     global flag, msg
     while True:
-        try:
-            pass
-        except KeyboardInterrupt:
-            print('hi')
-            exit(0)
+        #global listlen
+        if listlen != len(GID):
+            listlen = len(GID)
+            with open('data.csv','a+') as file:
+                file.write('\n'+GID[-1]+','+GNAME[-1]+','+str(CID[-1]))
+        #pass
 
 
 class NewMessageObserver:
