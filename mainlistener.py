@@ -3,6 +3,7 @@ import sys
 import time
 import threading
 import discord
+import pandas
 #import pyrebase
 
 from webwhatsapi import WhatsAPIDriver
@@ -34,24 +35,52 @@ def run():
     mythread = threading.Thread(target=client.run,args=[bot_token])
     mythread.daemon = True
     mythread.start()
+    try:
+        with open('data.csv') as file:
+            GID,GNAME,CID = [],[],[]
+            for i in file.readlines():
+                nGID,nGNAME,nCID = [k.rstrip('\n') for k in i.split(',')]
+                GID.append(nGID)
+                GNAME.append(nGNAME)
+                CID.append(nCID)
+    except:
+        GID,GNAME,CID = [],[],[]
+        
     @client.event
     async def on_ready():
-        chan = client.get_channel(794208812944588863)
+        #chan = client.get_channel(794208812944588863)
         #print(client.guilds)
         #if flag == True:
         global flag,msg
         while True:
             if flag:
                 flag = False
-                await chan.send('['+msg['origin']+'] {'+msg['sender'].rstrip('\n ')+'} '+msg['message'])
-                print(msg['originid']['_serialized'])
-                with open('data.csv','a+') as file:
-                    file.write('\n '+msg['originid']['_serialized']+','+msg['origin'])
+                if msg['originid']['_serialized'] in GID:
+                    chan = client.get_channel(int(CID[GID.index(msg['originid']['_serialized'])]))
+                    if GNAME[GID.index(msg['originid']['_serialized'])] != msg['origin']:
+                        await chan.edit(name=msg['origin'])
+                    await chan.send('['+msg['sender'].rstrip('\n ')+'] '+msg['message'])
+                else:
+                    print('here')
+                    GID.append(msg['originid']['_serialized'])
+                    GNAME.append(msg['origin'])
+                    chan = await client.guilds[0].create_text_channel(msg['origin'])
+                    CID.append(chan.id)
+                    await chan.send('['+msg['sender'].rstrip('\n ')+'] '+msg['message'])
+                    with open('data.csv','a+') as file:
+                        file.write('\n'+msg['originid']['_serialized']+','+msg['origin']+','+str(chan.id))
+                #print(msg['originid']['_serialized'])
+                #with open('data.csv','a+') as file:
+                #    file.write('\n '+msg['originid']['_serialized']+','+msg['origin'])
                 
     """ Locks the main thread while the subscription in running """
     global flag, msg
     while True:
-        pass
+        try:
+            pass
+        except KeyboardInterrupt:
+            print('hi')
+            exit(0)
 
 
 class NewMessageObserver:
