@@ -7,3 +7,5 @@ The Bot works very well, but goes offline randomly, and cannot recover. This pro
 Phone goes offline after a couple of minutes
 
 Blocking code kills the bot, whenever there's a new chat.
+
+The latest geckodriver needs to be downloaded if an error is encountered, as this version of geckodriver was for Firefox Browser 85.0.2 (64 bit)
